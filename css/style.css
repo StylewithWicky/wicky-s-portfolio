@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#{
+
+}
+a{
+    text-decoration: none;
+}
+main{
+    background-image: url(../assets/images/johannes-plenio-qkfxBc2NQ18-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 140vh;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    
+}
+header h1{
+    color: #1D1A39;
+    font-family:  "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+}
+header a{
+    color: #f1f1f1;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+header a.active, header a:hover{
+    color:#1D1A39;
+}
+.content{
+    font-family: "Oswald", sans-serif;
+    color:#EAE7DC;
+    letter-spacing: 1px;
+    font-weight: 200;
+    font-size: 70px;
+    margin-top: 100px;
+    line-height: 90px;
+    display: flex;
+   
+}
+.tab-container {
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 350px;
+    
+
+}
+.tab {
+    padding: 5px 20px;
+    background-color:#E16A3D;
+    border: none;
+    cursor: pointer;
+    border-radius: 115px;
+    width: 105px;
+    color: #EAE7DC;
+    font-family: "Oswald", sans-serif;
+    font-weight: 200;
+
+}
+.tab-container .tab:hover{
+    transform: scale(1.1);
+    
+}.card{
+    height:100px;
+    width:150px;
+    overflow: hidden;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.card-image{
+    width: 100%;
+    height:100%;
+    background-position: left;
+    background-size: cover;
+
+}
+ .card  .card-body{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    background: #1D1A39;
+    backdrop-filter: blur(5px);
+    border-radius: 30px;
+    color: #EAE7DC;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.card-title{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 500;
+}
+.card-sub-title{
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 300;
+}
+.card-info{
+    margin:40px 0;
+    line-height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-btn{
+    color: #1D1A39;
+    background-color: #EAE7DC;
+    padding: 10px 20px;
+    width: 120px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 200px 20px 10px 20px;
+}
+.Container .header{
+    width: 50%;
+    padding-bottom: 40px;
+}
+.Container .header h1{
+    font-size: 3em;
+    font-weight:bolder ;
+    border-bottom: 3px solid #333;
+}
+.Container .header h1 span{
+    font-weight: 100;
+}
+.Container .column1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.Container .column1 .dream {
+    display: flex;
+    flex-direction: column;
+    width:32.5%;
+}
+.Container .column1 .dream  img{
+    width:100%;
+    
+    background-position: left;
+    background-size: cover;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.button{
+   
+background-color: #E16A3D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 10px;
+}
